@@ -1,8 +1,8 @@
 ---
 title: "Liberating the Triune Man: A Journey from Sin to Redemption"
-pubDate: 2024-02-14
+publishedDate: 2024-02-14
 author: "Leroy"
-image: "liberation.jpg"
+image: "./images/liberation.jpg"
 tags: ["spirituality", "redemption", "faith"]
 slug: liberating-the-triune-man-a-journey-from-sin-to-redemption
 photographer: "Min An"

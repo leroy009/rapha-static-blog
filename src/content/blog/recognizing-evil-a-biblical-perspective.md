@@ -1,8 +1,8 @@
 ---
 title: "Recognizing Evil: A Biblical Perspective"
-pubDate: 2024-02-14
+publishedDate: 2024-02-15
 author: "Leroy"
-image: "bible_study.jpg"
+image: "./images/bible_study.jpg"
 tags: ["spirituality", "sin", "redemption", "Christianity", "Bible"]
 slug: recognizing-evil-a-biblical-perspective
 photographer: "Oladimeji Ajegbile"

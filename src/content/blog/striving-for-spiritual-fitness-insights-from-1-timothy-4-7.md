@@ -1,8 +1,8 @@
 ---
 title: "Striving for Spiritual Fitness: Insights from 1 Timothy 4:7"
-pubDate: 2024-02-14
+publishedDate: 2024-02-16
 author: "Leroy"
-image: "spiritual_fitness.jpg"
+image: "./images/spiritual_fitness.jpg"
 tags: ["spirituality", "faith", "self-improvement", "Christianity", "Bible"]
 slug: striving-for-spiritual-fitness-insights-from-1-timothy-4-7
 photographer: "Ketut Subiyanto"
