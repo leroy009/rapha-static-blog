@@ -1,0 +1,41 @@
+---
+import { initFlowbite } from "flowbite";
+
+import { SITE_TITLE, SITE_DESCRIPTION } from "../data/constants";
+import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
+
+initFlowbite;
+
+const { title = "Rapha Wellness Clinic" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content={SITE_DESCRIPTION} />
+		{title === "Rapha Wellness Clinic" && <title>{title}</title>}
+		{
+			title !== "Rapha Wellness Clinic" && (
+				<title>
+					{SITE_TITLE} - {title}
+				</title>
+			)
+		}
+	</head>
+	<body class="w-full">
+		<Navbar />
+
+		<section class="container mx-auto max-w-screen-xl mt-10 px-8">
+			<slot />
+		</section>
+
+		<Footer />
+		<script
+			is:inline
+			src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"
+		></script>
+	</body>
+</html>
