@@ -11,7 +11,9 @@ const { tags } = Astro.props;
 					"px-2 py-1 text-white rounded-full text-xs hover:opacity-90",
 				]}
 			>
-				<a href={"/articles/tags/" + tag}>{tag}</a>
+				<a class="capitalize " href={"/articles/tags/" + tag}>
+					{tag}
+				</a>
 			</span>
 		))
 	}
