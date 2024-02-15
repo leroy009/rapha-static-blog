@@ -9,7 +9,7 @@ photographer: "Ketut Subiyanto"
 imageUrl: "https://www.pexels.com/photo/photo-of-man-doing-push-ups-using-yellow-kettlebell-4720236/"
 ---
 
-# Embracing Spiritual Discipline: Lessons from 1 Timothy 4:7
+## Embracing Spiritual Discipline: Lessons from 1 Timothy 4:7
 
 In the journey of faith, the call to spiritual discipline resonates profoundly. Rooted in the teachings of Scripture, the pursuit of spiritual fitness beckons believers to embark on a transformative path of self-improvement and divine alignment. At the heart of this journey lies the wisdom encapsulated in 1 Timothy 4:7, a verse that offers invaluable insights into the pursuit of spiritual growth and vitality.
 
