@@ -1,0 +1,51 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import ArticleCard from "../../../components/ArticleCard.astro";
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+
+const { tag } = Astro.params;
+
+const allBlogPosts: CollectionEntry<"blog">[] = (
+	await await getCollection("blog")
+).sort(
+	(a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) =>
+		b.data.publishedDate.valueOf() - a.data.publishedDate.valueOf(),
+);
+
+const tagArticles = allBlogPosts.filter((article) =>
+	article.data.tags.includes(tag),
+);
+---
+
+<Layout title="Articles">
+	<section class="container mx-auto max-w-screen-xl mt-10 px-8 mb-8">
+		<a
+			href="/articles"
+			class="inline-block bg-green-100 p-2 mb-6 hover:bg-green-500 hover:text-white"
+			>Back To Articles</a
+		>
+		<h1 class="text-2xl pb-3 uppercase">{tag}</h1>
+		<!-- Main Grid -->
+		<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+			<!-- Article Card -->
+			{tagArticles.map((article) => <ArticleCard article={article} />)}
+		</div>
+
+		<!-- Pagination -->
+		<div class="flex justify-between mt-10">
+			<a
+				href="#"
+				class="inline-block bg-green-100 px-3 py-2 hover:bg-green-600 hover:text-white rounded-lg"
+			>
+				Previous
+			</a>
+			<a
+				href="#"
+				class="inline-block bg-green-100 px-3 py-2 hover:bg-green-600 hover:text-white rounded-lg"
+			>
+				Next
+			</a>
+		</div>
+	</section>
+</Layout>
