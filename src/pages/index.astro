@@ -2,6 +2,8 @@
 import Layout from "../layouts/Layout.astro";
 import SearchForm from "../components/SearchForm.astro";
 import MostRecentArticle from "../components/MostRecentArticle.astro";
+import Hero from "../components/Hero.astro";
+import Features from "../components/Features.astro";
 import { HOMEPAGE_ARTICLE_LIMIT } from "../data/constants";
 
 import { getCollection, type CollectionEntry } from "astro:content";
@@ -20,6 +22,9 @@ const remainingArticles: CollectionEntry<"blog">[] = allBlogPosts.slice(1);
 ---
 
 <Layout title="Rapha Wellness Clinic">
+	<Hero />
+	<Features />
+
 	<!-- Top Grid -->
 	<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
 		<div>
