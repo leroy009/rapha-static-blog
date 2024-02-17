@@ -1,0 +1,19 @@
+{
+	"icon": "mdi:bandage",
+	"category": "Counseling Services",
+	"list": [
+		"Church-related issues management",
+		"Family problem resolution",
+		"Child/parent conflict resolution",
+		"Marital problem counseling",
+		"Work-related problem counseling",
+		"Anxiety management",
+		"Trauma counseling",
+		"Sexual problem counseling",
+		"Depression counseling",
+		"Suicidal tendencies counseling",
+		"Legal and debt management advice",
+		"Financial problem counseling",
+		"HIV/AIDS counseling or counseling for any other chronic illnesses"
+	]
+}

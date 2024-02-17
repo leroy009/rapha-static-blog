@@ -10,4 +10,14 @@ export const VISSION =
 export const INTRO_HEADING =
 	"Empowering Lives, Healing Souls: Your Path to Wholeness";
 export const INTRO_SUB_HEADING =
-	"Welcome to Wellness Clinic, where we blend spiritual guidance, professional counseling, and physical wellness to empower individuals towards a holistic transformation. Our mission is to equip, heal, and provide hope, fostering spiritual and emotional growth for all.";
+	"Welcome to Rapha Wellness Clinic, where we blend spiritual guidance, professional counseling, and physical wellness to empower individuals towards a holistic transformation. Our mission is to equip, heal, and provide hope, fostering spiritual and emotional growth for all.";
+
+export const WHY_US_TITLE =
+	"Why Choose Us for Your Spiritual and Emotional Wellness Needs";
+export const WHY_US_SUB_TITLE = "Discover the Difference That Sets Us Apart";
+export const WHY_US_DESCRIPTION =
+	"At Rapha Wellness Clinic, we're dedicated to your spiritual and emotional well-being. With personalized care, expert guidance, and a compassionate approach, we're here to support you every step of the way on your journey to healing and wholeness.";
+
+export const SERVICE_TITLE = "Comprehensive Services for Holistic Wellness";
+export const SERVICE_DESCRIPTION =
+	"Discover a wide array of outreach programs, professional counseling, specialized services, and wellness programs designed to address your spiritual, emotional, and practical needs.";

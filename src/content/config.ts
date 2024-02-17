@@ -24,7 +24,27 @@ const introservicesCollection = defineCollection({
 	}),
 });
 
+const whyusCollection = defineCollection({
+	type: "data",
+	schema: z.object({
+		name: z.string(),
+		description: z.string(),
+		icon: z.string(),
+	}),
+});
+
+const servicelistCollection = defineCollection({
+	type: "data",
+	schema: z.object({
+		icon: z.string(),
+		category: z.string(),
+		list: z.array(z.string()),
+	}),
+});
+
 export const collections = {
 	blog: blogCollection,
 	introservices: introservicesCollection,
+	whyus: whyusCollection,
+	servicelist: servicelistCollection,
 };

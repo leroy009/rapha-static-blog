@@ -1,0 +1,21 @@
+---
+import { Icon } from "astro-icon/components";
+import { type CollectionEntry } from "astro:content";
+const { reason } = Astro.props;
+interface Props {
+	reason: CollectionEntry<"whyus">;
+}
+---
+
+<div class="relative pl-9">
+	<dt class="inline font-semibold text-gray-900">
+		<Icon
+			name={reason.data.icon}
+			class="absolute left-1 top-1 h-5 w-5 text-green-600"
+		/>
+		{reason.data.name}:
+	</dt>
+	<dd class="inline">
+		{reason.data.description}
+	</dd>
+</div>
