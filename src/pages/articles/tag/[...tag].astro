@@ -18,8 +18,6 @@ const allBlogPosts: CollectionEntry<"blog">[] = (
 const tagArticles = allBlogPosts.filter((article) =>
 	article.data.tags.includes(tag),
 );
-
-console.log(tagArticles);
 ---
 
 <Layout title="Articles">

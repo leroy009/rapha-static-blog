@@ -1,105 +1,39 @@
 ---
+import { Icon } from "astro-icon/components";
+import { type CollectionEntry } from "astro:content";
 
+const { serviceCatergory } = Astro.props;
+
+interface Props {
+	serviceCatergory: CollectionEntry<"servicelist">;
+}
 ---
 
 <div>
 	<div
-		class="flex justify-center items-center mb-4 w-10 h-10 bg-primary-100 rounded dark:bg-primary-900 lg:h-16 lg:w-16"
+		class="flex justify-center items-center mb-4 w-10 h-10 bg-green-100 rounded dark:bg-green-900 lg:h-16 lg:w-16"
 	>
-		<svg
-			class="w-5 h-5 text-primary-600 dark:text-primary-300 lg:w-8 lg:h-8"
-			fill="currentColor"
-			viewBox="0 0 20 20"
-			xmlns="http://www.w3.org/2000/svg"
-			><path
-				fill-rule="evenodd"
-				d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z"
-				clip-rule="evenodd"></path></svg
-		>
+		<Icon
+			name={serviceCatergory.data.icon}
+			class="w-5 h-5 text-green-600 dark:text-green-300 lg:w-8 lg:h-8"
+		/>
 	</div>
-	<h3 class="mb-2 text-xl font-bold dark:text-white text-gray-900">
-		Project Management
+	<h3 class="mb-2 text-xl font-bold dark:text-white text-green-900">
+		{serviceCatergory.data.category}
 	</h3>
 	<ul role="list" class="my-6 lg:mb-0 space-y-4">
-		<li class="flex space-x-2.5">
-			<!-- Icon -->
-			<svg
-				class="flex-shrink-0 w-5 h-5 text-primary-600 dark:text-primary-500"
-				fill="currentColor"
-				viewBox="0 0 20 20"
-				xmlns="http://www.w3.org/2000/svg"
-				><path
-					fill-rule="evenodd"
-					d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-					clip-rule="evenodd"></path></svg
-			>
-			<span class="leading-tight text-gray-500 dark:text-gray-400"
-				>Unified Contribution Graph</span
-			>
-		</li>
-		<li class="flex space-x-2.5">
-			<!-- Icon -->
-			<svg
-				class="flex-shrink-0 w-5 h-5 text-primary-600 dark:text-primary-500"
-				fill="currentColor"
-				viewBox="0 0 20 20"
-				xmlns="http://www.w3.org/2000/svg"
-				><path
-					fill-rule="evenodd"
-					d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-					clip-rule="evenodd"></path></svg
-			>
-			<span class="leading-tight text-gray-500 dark:text-gray-400"
-				>Org activity graph</span
-			>
-		</li>
-		<li class="flex space-x-2.5">
-			<!-- Icon -->
-			<svg
-				class="flex-shrink-0 w-5 h-5 text-primary-600 dark:text-primary-500"
-				fill="currentColor"
-				viewBox="0 0 20 20"
-				xmlns="http://www.w3.org/2000/svg"
-				><path
-					fill-rule="evenodd"
-					d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-					clip-rule="evenodd"></path></svg
-			>
-			<span class="leading-tight text-gray-500 dark:text-gray-400"
-				>Org dependency insights</span
-			>
-		</li>
-		<li class="flex space-x-2.5">
-			<!-- Icon -->
-			<svg
-				class="flex-shrink-0 w-5 h-5 text-primary-600 dark:text-primary-500"
-				fill="currentColor"
-				viewBox="0 0 20 20"
-				xmlns="http://www.w3.org/2000/svg"
-				><path
-					fill-rule="evenodd"
-					d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-					clip-rule="evenodd"></path></svg
-			>
-			<span class="leading-tight text-gray-500 dark:text-gray-400"
-				>Milestones</span
-			>
-		</li>
-		<li class="flex space-x-2.5">
-			<!-- Icon -->
-			<svg
-				class="flex-shrink-0 w-5 h-5 text-primary-600 dark:text-primary-500"
-				fill="currentColor"
-				viewBox="0 0 20 20"
-				xmlns="http://www.w3.org/2000/svg"
-				><path
-					fill-rule="evenodd"
-					d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-					clip-rule="evenodd"></path></svg
-			>
-			<span class="leading-tight text-gray-500 dark:text-gray-400"
-				>Repo insights</span
-			>
-		</li>
+		{
+			serviceCatergory.data.list.map((item) => (
+				<li class="flex space-x-2.5">
+					<Icon
+						name="mdi:tick-circle"
+						class="flex-shrink-0 w-5 h-5 text-green-600 dark:text-green-500"
+					/>
+					<span class="leading-tight text-green-500 dark:text-green-400">
+						{item}
+					</span>
+				</li>
+			))
+		}
 	</ul>
 </div>
