@@ -14,8 +14,8 @@ export const legalLinks: Link[] = [
 ];
 
 export const companyLinks: Link[] = [
-	{ name: "About", href: "#" },
-	{ name: "Contact", href: "#" },
+	{ name: "About", href: "/about" },
+	{ name: "Contact", href: "mailito:rapha@rhaphawellnessclinic.co.za" },
 	{ name: "Articles", href: "/articles" },
 	{ name: "Jobs", href: "#" },
 	{ name: "Press", href: "#" },

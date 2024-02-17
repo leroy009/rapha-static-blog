@@ -14,6 +14,17 @@ const blogCollection = defineCollection({
 		}),
 });
 
+const introservicesCollection = defineCollection({
+	type: "data",
+	schema: z.object({
+		name: z.string(),
+		description: z.string(),
+		icon: z.string(),
+		url: z.string(),
+	}),
+});
+
 export const collections = {
 	blog: blogCollection,
+	introservices: introservicesCollection,
 };

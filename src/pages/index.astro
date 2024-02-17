@@ -1,13 +1,17 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import SearchForm from "../components/SearchForm.astro";
-import MostRecentArticle from "../components/MostRecentArticle.astro";
+
 import Hero from "../components/Hero.astro";
-import Features from "../components/Features.astro";
+import Introduction from "../components/Introduction.astro";
+import ServiceOverview from "../components/ServiceOverview.astro";
+import WhyChooseUs from "../components/WhyChooseUs.astro";
+import CTA from "../components/CTA.astro";
+import Blog from "../components/Blog.astro";
+import ContactInfo from "../components/ContactInfo.astro";
+
 import { HOMEPAGE_ARTICLE_LIMIT } from "../data/constants";
 
 import { getCollection, type CollectionEntry } from "astro:content";
-import ArticleCard from "../components/ArticleCard.astro";
 
 const allBlogPosts: CollectionEntry<"blog">[] = (
 	await await getCollection("blog")
@@ -23,27 +27,10 @@ const remainingArticles: CollectionEntry<"blog">[] = allBlogPosts.slice(1);
 
 <Layout title="Rapha Wellness Clinic">
 	<Hero />
-	<Features />
-
-	<!-- Top Grid -->
-	<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
-		<div>
-			<h1 class="text-5xl font-bold mt-4 mb-8 leading-tight xl:text-6xl">
-				Rapha Wellness Clinic
-			</h1>
-
-			<SearchForm />
-		</div>
-		<!-- Most Recent Article -->
-		<MostRecentArticle article={latestArticle} />
-	</div>
-
-	<!-- Main Grid -->
-	<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-		{
-			remainingArticles
-				.slice(0, HOMEPAGE_ARTICLE_LIMIT)
-				.map((article) => <ArticleCard article={article} />)
-		}
-	</div>
+	<Introduction />
+	<ServiceOverview />
+	<WhyChooseUs />
+	<CTA />
+	<Blog latestArticle={latestArticle} remainingArticles={remainingArticles} />
+	<ContactInfo />
 </Layout>

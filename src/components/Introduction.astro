@@ -1,0 +1,35 @@
+---
+import IntroServiceCard from "../components/Intro/IntroServiceCard.astro";
+import { INTRO_HEADING, INTRO_SUB_HEADING } from "../data/constants";
+
+import { getCollection, type CollectionEntry } from "astro:content";
+
+const allIntroService: CollectionEntry<"introservices">[] =
+	await getCollection("introservices");
+
+// TODO: Extract all the cards to their own components and use data.json to get the information and render it using loop
+---
+
+<div class="bg-green-100 py-24 sm:py-32">
+	<div class="mx-auto max-w-7xl px-6 lg:px-8">
+		<div class="mx-auto max-w-4xl lg:mx-0">
+			<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+				{INTRO_HEADING}
+			</h2>
+			<p class="mt-6 text-lg leading-8 text-gray-600">
+				{INTRO_SUB_HEADING}
+			</p>
+		</div>
+		<div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+			<dl
+				class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3"
+			>
+				{
+					allIntroService.map((service) => (
+						<IntroServiceCard introService={service} />
+					))
+				}
+			</dl>
+		</div>
+	</div>
+</div>

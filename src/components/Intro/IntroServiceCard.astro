@@ -1,0 +1,33 @@
+---
+import { Icon } from "astro-icon/components";
+import { type CollectionEntry } from "astro:content";
+
+const { introService } = Astro.props;
+
+interface Props {
+	introService: CollectionEntry<"introservices">;
+}
+---
+
+<div class="flex flex-col">
+	<dt class="text-base font-semibold leading-7 text-gray-900">
+		<div
+			class="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-green-600"
+		>
+			<Icon name={introService.data.icon} class="h-6 w-6 text-white" />
+		</div>
+		{introService.data.name}
+	</dt>
+	<dd class="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600">
+		<p class="flex-auto">
+			{introService.data.description}
+		</p>
+		<p class="mt-6">
+			<a
+				href={introService.data.url}
+				class="text-sm font-semibold leading-6 text-green-600"
+				>Learn more <span aria-hidden="true">→</span></a
+			>
+		</p>
+	</dd>
+</div>
