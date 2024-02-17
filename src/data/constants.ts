@@ -21,3 +21,8 @@ export const WHY_US_DESCRIPTION =
 export const SERVICE_TITLE = "Comprehensive Services for Holistic Wellness";
 export const SERVICE_DESCRIPTION =
 	"Discover a wide array of outreach programs, professional counseling, specialized services, and wellness programs designed to address your spiritual, emotional, and practical needs.";
+
+export const CTA_TITLE =
+	"Embark on Your Journey to Spiritual and Emotional Wellness Today";
+export const CTA_DESCRIPTION =
+	"Experience the transformative power of holistic healing at Rapha Wellness Clinic. Our dedicated team of counselors and professionals is here to guide you towards inner harmony and renewed purpose. Whether you're seeking spiritual guidance, emotional support, or practical advice, we offer personalized services tailored to meet your unique needs. Take the first step towards a brighter tomorrow and embark on your journey to spiritual and emotional wellness with us.";
