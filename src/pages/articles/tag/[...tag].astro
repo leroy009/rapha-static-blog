@@ -4,12 +4,11 @@ import ArticleCard from "../../../components/Cards/ArticleCard.astro";
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import BackToArticles from "../../../components/ui/BackToArticles.astro";
-import Pagination from "../../../components/Pagination.astro";
 
 const { tag } = Astro.params;
 
 const allBlogPosts: CollectionEntry<"blog">[] = (
-	await await getCollection("blog")
+	await getCollection("blog")
 ).sort(
 	(a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) =>
 		b.data.publishedDate.valueOf() - a.data.publishedDate.valueOf(),
