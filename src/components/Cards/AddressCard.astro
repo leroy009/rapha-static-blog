@@ -1,0 +1,33 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { Icon } from "astro-icon/components";
+interface Props {
+	contact: CollectionEntry<"contact">;
+}
+
+const { contact } = Astro.props;
+---
+
+<div>
+	<div
+		class="inline-flex items-center justify-center w-16 h-16 mx-auto text-green-500 bg-green-300 rounded-lg dark:bg-green-800 dark:text-white"
+	>
+		<Icon name={contact.data.icon} class="w-10 h-10" />
+	</div>
+	<div class="mt-4">
+		<h3 class="text-xl font-bold text-green-900 dark:text-white">
+			{contact.data.title}:
+		</h3>
+		<p
+			class="mt-1 text-base font-normal text-green-500 dark:text-green-400"
+			set:html={contact.data.htmlText}
+		/>
+		<a
+			href={contact.data.link_url}
+			title=""
+			class="block mt-1 text-base font-semibold text-green-900 dark:text-white hover:underline"
+		>
+			{contact.data.link_text}
+		</a>
+	</div>
+</div>

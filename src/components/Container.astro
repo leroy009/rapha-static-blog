@@ -1,7 +1,16 @@
 ---
+const { classes = "" } = Astro.props;
 
+interface Props {
+	classes: string;
+}
 ---
 
-<section class="container mx-auto max-w-screen-xl mt-10 px-8">
+<section
+	class:list={[
+		"container mx-auto max-w-screen-xl mt-10 px-8",
+		classes === "" ? "" : classes,
+	]}
+>
 	<slot />
 </section>

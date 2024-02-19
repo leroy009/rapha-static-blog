@@ -42,9 +42,42 @@ const servicelistCollection = defineCollection({
 	}),
 });
 
+const contactCollection = defineCollection({
+	type: "data",
+	schema: z.object({
+		title: z.string(),
+		htmlText: z.string(),
+		icon: z.string(),
+		link_text: z.string().optional(),
+		link_url: z.string().optional(),
+	}),
+});
+
+const valuesCollection = defineCollection({
+	type: "data",
+	schema: z.object({
+		name: z.string(),
+		description: z.string(),
+	}),
+});
+
+const teamCollection = defineCollection({
+	type: "data",
+	schema: ({ image }) =>
+		z.object({
+			name: z.string(),
+			role: z.string(),
+			image: image(),
+			organization: z.string(),
+		}),
+});
+
 export const collections = {
 	blog: blogCollection,
 	introservices: introservicesCollection,
 	whyus: whyusCollection,
 	servicelist: servicelistCollection,
+	contact: contactCollection,
+	values: valuesCollection,
+	team: teamCollection,
 };

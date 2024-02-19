@@ -1,0 +1,17 @@
+---
+const { text, disabled } = Astro.props;
+
+interface Props {
+	disabled: boolean;
+	text: string;
+}
+---
+
+<button
+	type="submit"
+	disabled={disabled}
+	class:list={[
+		disabled ? " pointer-events-none opacity-70" : "hover:bg-green-600",
+		"px-5 py-3 text-sm font-medium text-center text-white rounded-lg bg-green-700 sm:w-fit hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800",
+	]}>{text}</button
+>

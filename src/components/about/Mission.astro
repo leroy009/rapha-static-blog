@@ -1,0 +1,57 @@
+---
+import { MISSION, MISSION_001, MISSION_002 } from "../../data/constants";
+---
+
+<div class="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
+	<div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+		<h2 class="text-3xl font-bold tracking-tight text-green-900 sm:text-4xl">
+			Our mission
+		</h2>
+		<div class="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
+			<div class="lg:w-full lg:max-w-2xl lg:flex-auto">
+				<p
+					class="text-xl leading-8 text-green-600 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-green-900 dark:first-letter:text-green-100 first-letter:me-3 first-letter:float-start"
+				>
+					{MISSION}
+				</p>
+				<div class="mt-10 max-w-xl text-base leading-7 text-green-700">
+					<p>
+						{MISSION_001}
+					</p>
+					<p class="mt-10">
+						{MISSION_002}
+					</p>
+				</div>
+			</div>
+
+			<div class="lg:flex lg:flex-auto lg:justify-center">
+				<dl class="w-64 space-y-8 xl:w-80">
+					<div class="flex flex-col-reverse gap-y-4">
+						<dt class="text-base leading-7 text-green-600">
+							Total Funds Raised or Donated
+						</dt>
+						<dd class="text-5xl font-semibold tracking-tight text-green-900">
+							R 1.5 Billion
+						</dd>
+					</div>
+					<div class="flex flex-col-reverse gap-y-4">
+						<dt class="text-base leading-7 text-green-600">
+							Total Hours of Service Provided
+						</dt>
+						<dd class="text-5xl font-semibold tracking-tight text-green-900">
+							1500+
+						</dd>
+					</div>
+					<div class="flex flex-col-reverse gap-y-4">
+						<dt class="text-base leading-7 text-green-600">
+							Number of Outreach Events or Programs Held
+						</dt>
+						<dd class="text-5xl font-semibold tracking-tight text-green-900">
+							3
+						</dd>
+					</div>
+				</dl>
+			</div>
+		</div>
+	</div>
+</div>
