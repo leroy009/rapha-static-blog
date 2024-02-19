@@ -13,7 +13,7 @@ function capitalizeFirstLetter(str: string): string {
 	if (typeof str !== "string" || str.length === 0) {
 		return str;
 	}
-	return str.charAt(0).toUpperCase(0) + str.slice(1);
+	return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
 export { formartDate, capitalizeFirstLetter };

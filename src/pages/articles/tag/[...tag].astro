@@ -15,9 +15,9 @@ const allBlogPosts: CollectionEntry<"blog">[] = (
 		b.data.publishedDate.valueOf() - a.data.publishedDate.valueOf(),
 );
 
-const tagArticles = allBlogPosts.filter((article) =>
-	article.data.tags.includes(tag),
-);
+const tagArticles = tag
+	? allBlogPosts.filter((article) => article.data.tags.includes(tag))
+	: [];
 ---
 
 <Layout title="Articles">

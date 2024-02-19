@@ -3,7 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import SearchForm from "../../components/SearchForm.astro";
 import ArticleCard from "../../components/Cards/ArticleCard.astro";
 
-import { CollectionEntry, getCollection } from "astro:content";
+import { type CollectionEntry, getCollection } from "astro:content";
 import BackToArticles from "../../components/ui/BackToArticles.astro";
 
 const query: string | null = Astro.url.searchParams.get("query");
