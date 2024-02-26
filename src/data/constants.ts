@@ -8,7 +8,7 @@ export const VISSION =
 	"To counsel, encourage and deliver a triune man from the bondage of sin. (1 Thessalonians 5: 23)";
 
 export const INTRO_HEADING =
-	"Empowering Lives, Healing Souls: Your Path to Wholeness";
+	"Healing body, mind and spirit. A path to spiritual wholeness.";
 export const INTRO_SUB_HEADING =
 	"Welcome to Rapha Wellness Clinic, where we blend spiritual guidance, professional counseling, and physical wellness to empower individuals towards a holistic transformation. Our mission is to equip, heal, and provide hope, fostering spiritual and emotional growth for all.";
 
