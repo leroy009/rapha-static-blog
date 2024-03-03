@@ -15,20 +15,20 @@ export const legalLinks: Link[] = [
 
 export const companyLinks: Link[] = [
 	{ name: "About", href: "/about" },
-	{ name: "Contact", href: "mailito:rapha@rhaphawellnessclinic.co.za" },
+	{ name: "Contact", href: "mailito:info@rhaphawellnessclinic.co.za" },
 	{ name: "Articles", href: "/articles" },
-	{ name: "Jobs", href: "#" },
-	{ name: "Press", href: "#" },
-	{ name: "Partners", href: "#" },
+	// { name: "Jobs", href: "#" },
+	// { name: "Press", href: "#" },
+	// { name: "Partners", href: "#" },
 ];
 
 export const servicesLinks: Link[] = [
 	{ name: "Services", href: "#" },
 	{ name: "Counseling", href: "#" },
 	{ name: "Wellness Programs", href: "#" },
-	{ name: "Resources", href: "#" },
-	{ name: "Testimonials", href: "#" },
-	{ name: "Partners", href: "#" },
+	// { name: "Resources", href: "#" },
+	// { name: "Testimonials", href: "#" },
+	// { name: "Partners", href: "#" },
 ];
 
 export const supportLinks: Link[] = [
