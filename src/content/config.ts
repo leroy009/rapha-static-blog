@@ -69,6 +69,8 @@ const teamCollection = defineCollection({
 			role: z.string(),
 			image: image(),
 			organization: z.string(),
+			profile: z.string(),
+			verse: z.string(),
 		}),
 });
 
