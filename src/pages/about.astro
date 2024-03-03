@@ -1,4 +1,6 @@
 ---
+// import { getCollection, type CollectionEntry } from "astro:content";
+
 import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
 import Values from "../components/about/Values.astro";
@@ -7,6 +9,8 @@ import Partners from "../components/about/Partners.astro";
 import Team from "../components/about/Team.astro";
 import Hero from "../components/about/Hero.astro";
 import teamImage from "../images/about/team001.jpg";
+
+// const team: CollectionEntry<"team">[] = await getCollection("team");
 ---
 
 <Layout>

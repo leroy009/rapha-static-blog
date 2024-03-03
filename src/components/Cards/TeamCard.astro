@@ -7,9 +7,11 @@ const { member } = Astro.props;
 interface Props {
 	member: CollectionEntry<"team">;
 }
+
+const modalId = `${member.id}-modal`;
 ---
 
-<div>
+<div class="bg-white p-4 rounded-lg">
 	<Image
 		class="aspect-[3/4] w-full rounded-2xl object-cover"
 		src={member.data.image}
@@ -20,9 +22,16 @@ interface Props {
 	>
 		{member.data.name}
 	</h3>
-	<p class="text-base leading-7 text-green-600">{member.data.role}</p>
+	<p class="text-base leading-7 font-semibold text-green-600">
+		{member.data.role}
+	</p>
+
+	<p class="text-sm leading-7 text-green-600" set:html={member.data.profile} />
+	<p class="text-sm leading-7 text-green-600" set:html={member.data.verse} />
+	<!-- <p class="text-sm leading-7 text-green-600">{member.data.verse}</p> -->
+
 	<!-- social media -->
-	<!-- <ul role="list" class="mt-6 flex gap-x-6">
+	<ul role="list" class="mt-6 flex gap-x-6">
 		<li>
 			<a href="#" class="text-green-400 hover:text-green-500">
 				<span class="sr-only">X</span>
@@ -54,5 +63,5 @@ interface Props {
 				</svg>
 			</a>
 		</li>
-	</ul> -->
+	</ul>
 </div>

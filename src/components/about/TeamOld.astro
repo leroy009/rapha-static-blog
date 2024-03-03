@@ -1,6 +1,7 @@
 ---
 import { TEAM_TEXT } from "../../data/constants";
 import { getCollection, type CollectionEntry } from "astro:content";
+import TeamCard from "../Cards/TeamCard.astro";
 import TeamCardWide from "../Cards/TeamCardWide.astro";
 
 const team: CollectionEntry<"team">[] = await getCollection("team");
@@ -11,6 +12,25 @@ const team: CollectionEntry<"team">[] = await getCollection("team");
 // 	teamMembers: CollectionEntry<"team">[];
 // }
 ---
+
+<div class="py-8 sm:py-10">
+	<div class="mx-auto max-w-7xl px-6 lg:px-8">
+		<div class="mx-auto max-w-2xl lg:mx-0">
+			<h2 class="text-3xl font-bold tracking-tight text-green-900 sm:text-4xl">
+				Our team
+			</h2>
+			<p class="mt-6 text-lg leading-8 text-green-600">
+				{TEAM_TEXT}
+			</p>
+		</div>
+		<ul
+			role="list"
+			class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+		>
+			{team.map((member) => <TeamCard member={member} />)}
+		</ul>
+	</div>
+</div>
 
 <section class="bg-green-100 dark:bg-green-900 mt-32">
 	<div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
