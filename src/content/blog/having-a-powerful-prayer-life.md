@@ -1,6 +1,6 @@
 ---
 title: "Having a powerful prayer Life"
-publishedDate: 2024-02-16
+publishedDate: 2023-12-29
 author: "Mr Lucky Raphala"
 image: "./images/powerful-prayer.jpg"
 tags: ["prayer", "spirituality", "faith", "Christianity", "Bible"]
@@ -113,48 +113,38 @@ example from the bible for each prayer**.
    _know what we should pray for as we ought, but the Spirit Himself makes intercession_
    _for us with groanings which cannot be uttered.’_
 
-```
-When we do not know what do to and where to go, it is a perfect time to say, “Holy
-Spirit help me.” In Galatian 8:27 , Paul said – “ Now He who searches the hearts
-knows what the mind of the Spirit is, because He makes intercession for the saints
-according to the will of God .”
-```
+   When we do not know what do to and where to go, it is a perfect time to say, “Holy
+   Spirit help me.” In Galatian 8:27 , Paul said – “ Now He who searches the hearts
+   knows what the mind of the Spirit is, because He makes intercession for the saints
+   according to the will of God .”
 
-```
-Jesus is the greatest intercessor. He continues to intercede for us even though he is
-in heaven ( Romans 8:34 ). He wants people to repent from their evil ways. God does
-not want humankind to be condemned in hell forever but to receive an everlasting
-life. Hence, God is looking for a man to stand in the gab for His kingdom to be
-established fully on earth and for humankind to accept Jesus as their Lord and
-saviour.
-```
+   Jesus is the greatest intercessor. He continues to intercede for us even though he is
+   in heaven ( Romans 8:34 ). He wants people to repent from their evil ways. God does
+   not want humankind to be condemned in hell forever but to receive an everlasting
+   life. Hence, God is looking for a man to stand in the gab for His kingdom to be
+   established fully on earth and for humankind to accept Jesus as their Lord and
+   saviour.
 
-```
-Daniel stood in the gab for Israelites by interceding as stated on Daniel 9:3 – “ Then I
-set my face towards the Lord God to make request by prayer and supplication, with
-fasting, sackcloth and ashes.” Believers, we have a duty to stand on the gab for
-unbelievers.
-```
+   Daniel stood in the gab for Israelites by interceding as stated on Daniel 9:3 – “ Then I
+   set my face towards the Lord God to make request by prayer and supplication, with
+   fasting, sackcloth and ashes.” Believers, we have a duty to stand on the gab for
+   unbelievers.
 
 2. Consecration prayer:
    I personally heard lots of Christians, Clergies and honourable men praying, “Let your
    will be done Lord but not mine while they are praying for a specific need and/or
    healing.” This becomes an incorrect application of the Word.
 
-```
-In Matthew 26:42 – Again, a second time, He went away and prayed, saying “O My
-Father, if this cup cannot pass away from Me unless I drink it, your will be done.
-Jesus made this prayer in agony of associating his death to sin. However, he knew
-the scriptures will have to be fulfilled as prophesied by Prophet Isaiah who said on
-verse 53:10 – Yet it pleased the Lord to bruise Him; He has put him to grief. When
-You (God) make His (Jesus) Soul an offering for sin, He shall see His seed, He shall
-prolong His days, and the pleasure of the Lord shall prosper in His Hand.
-```
+   In Matthew 26:42 – Again, a second time, He went away and prayed, saying “O My
+   Father, if this cup cannot pass away from Me unless I drink it, your will be done.
+   Jesus made this prayer in agony of associating his death to sin. However, he knew
+   the scriptures will have to be fulfilled as prophesied by Prophet Isaiah who said on
+   verse 53:10 – Yet it pleased the Lord to bruise Him; He has put him to grief. When
+   You (God) make His (Jesus) Soul an offering for sin, He shall see His seed, He shall
+   prolong His days, and the pleasure of the Lord shall prosper in His Hand.
 
-```
-As believers, we can apply this prayer for example when we receive a promotion in
-another city. It is important to first ask, if it is the will of God to move to another city.
-```
+   As believers, we can apply this prayer for example when we receive a promotion in
+   another city. It is important to first ask, if it is the will of God to move to another city.
 
 3. Healing Prayer:
    When Jesus died on the Cross, he became the payment for our sins. Before
@@ -167,16 +157,12 @@ another city. It is important to first ask, if it is the will of God to move to 
    person. As Christians, we ought to tell the sickness to go in the name of Jesus. Jesus
    gave us power to heal the sick.
 
-```
-Peter also bears witness to Prophet Isaiah’s prophesy in 1 Peter 2:24 – “ who Himself
-bore our sins in His own body on the tree, that we, having died to sins, might live for
-righteousness – by whose stripes you were healed”.
-```
+   Peter also bears witness to Prophet Isaiah’s prophesy in 1 Peter 2:24 – “ who Himself
+   bore our sins in His own body on the tree, that we, having died to sins, might live for
+   righteousness – by whose stripes you were healed”.
 
-```
-Jesus cast out demon spirits with the Word and healed all who were sick ( Matthew
-8: 16 – 17 ). As believers, we are given power to heal the sick.
-```
+   Jesus cast out demon spirits with the Word and healed all who were sick ( Matthew
+   8: 16 – 17 ). As believers, we are given power to heal the sick.
 
 4. Petition Prayer:
    It is important to note that this is a prayer we request God to give us our needs and
@@ -190,18 +176,14 @@ Jesus cast out demon spirits with the Word and healed all who were sick ( Matthe
    _you, whatever you ask the Father in My name He will give you. Until now you have_
    _asked nothing in my name. Ask, and you will receive, that your joy may be full_ .”
 
-```
-The key point illustrated on the above scriptures are as follows:
-a. You must believe you receive When you pray – right there and then.
-b. If you do, Jesus said you shall have whatever you asked – that is some time
-in the future.
-c. In everyday language this means you must first believe you have got it before
-actual delivery.
-d. But if you do not believe you have received, you are never going to get it.
-e. Do not ask for it repetitively. It is a sign of unbelief.
-f. After asking, keep on thanking God for it specifying the time you received it
-(the initial day of prayer).
-```
+- The key points illustrated in the above scriptures are as follows:
+  - You must believe you receive When you pray – right there and then.
+  - If you do, Jesus said you shall have whatever you asked – that is some time in the future.
+  - In everyday language, this means you must first believe you have got it before actual delivery.
+  - But if you do not believe you have received, you are never going to get it.
+  - Do not ask for it repetitively. It is a sign of unbelief.
+  - After asking, keep on thanking God for it specifying the time you received it.
+    (the initial day of prayer).
 
 5. Thanksgiving Prayer:
    Means adoration or praise. To thank or praise God is “to lift or extent one’s hands” in
@@ -209,10 +191,8 @@ f. After asking, keep on thanking God for it specifying the time you received it
    _thanksgiving; let us shout joyfully to Him with psalms_. Paul said in Colossians 4:
    that, “ _Continue earnestly in prayer, being vigilant in it with thanksgiving_ .”
 
-```
-It is important for believers to give thanks to God. Thanksgiving shows appreciation
-and acknowledges God who gives us power to reign as kings on earth.
-```
+   It is important for believers to give thanks to God. Thanksgiving shows appreciation
+   and acknowledges God who gives us power to reign as kings on earth.
 
 6. Prayer of Worship:
    In **Matthew 15:9** , Jesus wants us to worship God whole-heartedly and further warns
@@ -228,12 +208,10 @@ and acknowledges God who gives us power to reign as kings on earth.
    _earnestly that it would not rain, and it did not rain on the land for three years and six_
    _months_ .”
 
-```
-God’s power is often seen through committed believers. In ( Genesis 32:22-32) ,
-Jacob wrestled with an angel until the breaking of the day, and he said, I will not let
-you go unless you bless me. Jacob’s (Deceiver) name was changed to Israel (Prince
-with God) because he struggled with God and with men and have prevailed.
-```
+   God’s power is often seen through committed believers. In ( Genesis 32:22-32) ,
+   Jacob wrestled with an angel until the breaking of the day, and he said, I will not let
+   you go unless you bless me. Jacob’s (Deceiver) name was changed to Israel (Prince
+   with God) because he struggled with God and with men and have prevailed.
 
 8. Praying in Tongues (Pray fervently in Spirit):
    The foundation of all prayers is love. One can only stand in the gap because of
@@ -243,21 +221,19 @@ with God) because he struggled with God and with men and have prevailed.
    _be uttered. Now he who searches the hearts knows what the mind of the Spirit is,_
    _because He makes intercession for the saints according to the will of God_.
 
-```
-When we pray in Spirit, a natural mind idles and the Holy Spirit with his infinite
-wisdom and knowledge enables an intercessory pray through us. At this point, we
-intercede with the help of the Holy Spirit according to the will of God. We achieve this
-level by resting our souls patiently in God and allow Him to move on and through us
-as David said in Psalm 62:5 , “ My soul, wait silently for God alone, for my
-expectations is from God .” Paul settles David’s experiences in Corinthians 14:14 ,
-which says, “ For I pray in a tongue, my spirit prays, but my understanding is
-unfruitful.
-```
+   When we pray in Spirit, a natural mind idles and the Holy Spirit with his infinite
+   wisdom and knowledge enables an intercessory pray through us. At this point, we
+   intercede with the help of the Holy Spirit according to the will of God. We achieve this
+   level by resting our souls patiently in God and allow Him to move on and through us
+   as David said in Psalm 62:5 , “ My soul, wait silently for God alone, for my
+   expectations is from God .” Paul settles David’s experiences in Corinthians 14:14 ,
+   which says, “ For I pray in a tongue, my spirit prays, but my understanding is
+   unfruitful.
 
-```
-Without love, even the gift of speaking in tongues is meaningless ( 1 Corinthians
-13:1 )
-```
+   ```
+   Without love, even the gift of speaking in tongues is meaningless ( 1 Corinthians
+   13:1 )
+   ```
 
 9. Supplication prayer:
    Supplication is an intensity of sincerity in extended prayer not to gain merit by many
@@ -271,22 +247,17 @@ Without love, even the gift of speaking in tongues is meaningless ( 1 Corinthian
    nothing, but in everything by prayer and supplication, with thanksgiving, let their
    request be known to God.
 
-```
-10.Prayer of Faith (Praying with understanding):
-Praying with understanding is when one uses his intellect to apply the Word of God
-when praying ( 1 Corinthian 14:15 ). Paul refers this act as an edification of one
-another. For example, if one blesses in Spirit, the receiver will not be thankful
-because of lack understanding.
-```
-
-```
-It is through the Word of God that the Holy Spirit awaken response of faith within us.
-Rom 10:17 , so the faith comes by hearing, and hearing by the word of God. By
-inclining, remembering, and applying the Word of God ( Proverbs 4:20 ), our faith in
-God is awaken. Hebrews 11:1 , Faith is the substance of things hoped for, the
-evidence of things not seen. In Mark 4: 35 – 40 , Jesus compare fear with faith and
-refers fear as with no faith.
-```
+   10.Prayer of Faith (Praying with understanding):
+   Praying with understanding is when one uses his intellect to apply the Word of God
+   when praying ( 1 Corinthian 14:15 ). Paul refers this act as an edification of one
+   another. For example, if one blesses in Spirit, the receiver will not be thankful
+   because of lack understanding. \
+   It is through the Word of God that the Holy Spirit awaken response of faith within us.
+   Rom 10:17 , so the faith comes by hearing, and hearing by the word of God. By
+   inclining, remembering, and applying the Word of God ( Proverbs 4:20 ), our faith in
+   God is awaken. Hebrews 11:1 , Faith is the substance of things hoped for, the
+   evidence of things not seen. In Mark 4: 35 – 40 , Jesus compare fear with faith and
+   refers fear as with no faith.
 
 **Conclusion** :
 
