@@ -10,7 +10,7 @@ export const VISSION =
 export const INTRO_HEADING =
 	"Healing body, mind and spirit. A path to spiritual wholeness.";
 export const INTRO_SUB_HEADING =
-	"Welcome to Rapha Wellness Clinic, where we blend spiritual guidance, professional counseling, and physical wellness to empower individuals towards a holistic transformation. Our mission is to equip, heal, and provide hope, fostering spiritual and emotional growth for all.";
+	"Welcome to Rapha Wellness Clinic, where we offer spiritual guidance, professional counseling, and physical wellness to empower individuals towards a holistic transformation. Our mission is to equip, heal, and provide hope, fostering spiritual and emotional growth for all.";
 
 export const WHY_US_TITLE =
 	"Why Choose Us for Your Spiritual and Emotional Wellness Needs";
