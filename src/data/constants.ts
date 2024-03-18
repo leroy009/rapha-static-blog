@@ -12,6 +12,9 @@ export const INTRO_HEADING =
 export const INTRO_SUB_HEADING =
 	"Welcome to Rapha Wellness Clinic, where we offer spiritual guidance, professional counseling, and physical wellness to empower individuals towards a holistic transformation. Our mission is to equip, heal, and provide hope, fostering spiritual and emotional growth for all.";
 
+export const INTRO_SUB_HEADING_NO_SERVICES =
+	"<strong>“Rapha”</strong> in the Old Testament signifies restoration, healing, and repair. It's a reminder of the divine healing and restoration that can occur in various aspects of life, not just physically, but also emotionally and spiritually. <strong>Luke 4:18-19</strong> is a proclamation of Jesus' mission on earth, which includes healing the broken-hearted, proclaiming liberty to the captives, and setting at liberty those who are oppressed. This message emphasizes the importance of <strong>faith, trust</strong> in God, and the transformative power of <strong>His word</strong>. It's a reminder that healing and freedom come from God, and that He <strong>desires</strong> His people to be <strong>free</strong> and <strong>whole</strong>. This wholeness then allows us to worship Him freely. Remember, “Trust in the LORD with all your heart and lean not on your own understanding; in all your ways submit to him, and He will make your paths straight.” (Proverbs 3:5-6) ";
+
 export const WHY_US_TITLE =
 	"Why Choose Us for Your Spiritual and Emotional Wellness Needs";
 export const WHY_US_SUB_TITLE = "Discover the Difference That Sets Us Apart";
