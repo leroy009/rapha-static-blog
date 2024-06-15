@@ -2,11 +2,11 @@
 title: "Finding Hope in the Midst of Despair: A Journey of Faith"
 publishedDate: 2024-02-15
 author: "Leroy"
-image: "./images/liberation.jpg"
+image: "./images/An Open Bible with Flowers and a Notepad.jpg"
 # image: "hope_despair_journey_image.png" // TODO
 tags: ["hope", "faith", "despair", "redemption"]
 slug: finding-hope-in-the-midst-of-despair-a-journey-of-faith
-photographer: "Min An"
+photographer: "Tara Winstead"
 imageUrl: "https://www.pexels.com/photo/photography-of-man-raising-both-hands-1066176/"
 ---
 

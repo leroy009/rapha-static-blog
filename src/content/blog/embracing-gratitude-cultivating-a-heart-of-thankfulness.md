@@ -2,12 +2,12 @@
 title: "Embracing Gratitude: Cultivating a Heart of Thankfulness"
 publishedDate: 2024-02-15
 author: "Leroy"
-image: "./images/liberation.jpg"
+image: "./images/Conceptual Sculpture with Hands Holding a Heart.jpg"
 # image: "gratitude_heart_image.png" // TODO
 tags: ["gratitude", "thankfulness", "blessings", "faith"]
 slug: embracing-gratitude-cultivating-a-heart-of-thankfulness
-photographer: "Min An"
-imageUrl: "https://www.pexels.com/photo/photography-of-man-raising-both-hands-1066176/"
+photographer: "Alexas Fotos"
+imageUrl: "https://www.pexels.com/photo/conceptual-sculpture-with-hands-holding-a-heart-12301284/"
 ---
 
 Gratitude is a transformative attitude that has the power to enrich our lives, uplift our spirits, and deepen our connection with the divine. Rooted in the recognition of God's abundant blessings and the countless gifts that grace our lives each day, the practice of gratitude serves as a gateway to joy, contentment, and spiritual fulfillment.

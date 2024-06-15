@@ -2,12 +2,12 @@
 title: "Navigating Life's Storms: Finding Peace in the Midst of Adversity"
 publishedDate: 2024-02-14
 author: "Leroy"
-image: "./images/liberation.jpg"
+image: "./images/Waves on Rough Sea.jpg"
 # image: "finding_peace_image.png" // TODO
 tags: ["inspiration", "adversity", "peace", "faith"]
 slug: navigating-lifes-storms-finding-peace-in-the-midst-of-adversity
-photographer: "Min An"
-imageUrl: "https://www.pexels.com/photo/photography-of-man-raising-both-hands-1066176/"
+photographer: "David McElwee"
+imageUrl: "https://www.pexels.com/photo/waves-on-rough-sea-18846168/"
 ---
 
 Life is a journey fraught with unexpected twists and turns, and often, we find ourselves navigating turbulent waters as we encounter the storms of adversity. In moments of trial and tribulation, finding peace amidst the chaos can seem like an elusive quest. Yet, within the depths of our souls and the sanctuary of faith, there lies a steadfast anchor that offers refuge and solace even in the fiercest tempests.

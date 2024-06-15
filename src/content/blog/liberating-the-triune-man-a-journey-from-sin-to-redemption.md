@@ -2,11 +2,11 @@
 title: "Liberating the Triune Man: A Journey from Sin to Redemption"
 publishedDate: 2024-02-14
 author: "Leroy"
-image: "./images/liberation.jpg"
+image: "./images/brown wooden cross on green grass field during sunset.jpg"
 tags: ["spirituality", "redemption", "faith"]
 slug: liberating-the-triune-man-a-journey-from-sin-to-redemption
-photographer: "Min An"
-imageUrl: "https://www.pexels.com/photo/photography-of-man-raising-both-hands-1066176/"
+photographer: "Cdoncel"
+imageUrl: "https://unsplash.com/photos/brown-wooden-cross-on-green-grass-field-during-sunset-uq6x71rIFH8"
 ---
 
 In the bustling chaos of modern life, it's easy to lose sight of our spiritual essence amidst the clamor of worldly distractions. Yet, nestled within the pages of sacred scripture lies a timeless truth that beckons us to awaken to our divine nature. "To counsel, encourage and deliver a triune man from the bondage of sin" - these words from 1 Thessalonians 5:23 resonate deeply, offering a roadmap for those seeking liberation from the shackles of sin.

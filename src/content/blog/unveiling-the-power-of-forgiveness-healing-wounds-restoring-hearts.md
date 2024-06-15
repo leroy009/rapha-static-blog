@@ -2,12 +2,12 @@
 title: "Unveiling the Power of Forgiveness: Healing Wounds, Restoring Hearts"
 publishedDate: 2024-02-15
 author: "Leroy"
-image: "./images/liberation.jpg"
+image: "./images/chained gray elephant's foot.jpg"
 # image: "forgiveness_power_image.png" // TODO
 tags: ["forgiveness", "healing", "redemption", "faith"]
 slug: unveiling-the-power-of-forgiveness-healing-wounds-restoring-hearts
-photographer: "Min An"
-imageUrl: "https://www.pexels.com/photo/photography-of-man-raising-both-hands-1066176/"
+photographer: "Loïc Fürhoff"
+imageUrl: "https://unsplash.com/photos/chained-gray-elephants-foot-uFbyUPgJ24U"
 ---
 
 Forgiveness is a transformative force that has the power to heal wounds, mend broken relationships, and restore the human spirit. Rooted in the timeless teachings of Scripture, the concept of forgiveness serves as a beacon of hope, offering liberation from the shackles of resentment and bitterness.
