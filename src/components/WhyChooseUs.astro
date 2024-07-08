@@ -1,14 +1,13 @@
 ---
+import { getCollection, type CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
 import WhyUsCard from "./Cards/WhyUsCard.astro";
 import {
 	WHY_US_DESCRIPTION,
 	WHY_US_SUB_TITLE,
 	WHY_US_TITLE,
 } from "../data/constants";
-import { Image } from "astro:assets";
 import chooseUsImage from "../images/pexels-min-an-1004014.jpg";
-
-import { getCollection, type CollectionEntry } from "astro:content";
 
 const allWhyUsCollection: CollectionEntry<"whyus">[] =
 	await getCollection("whyus");

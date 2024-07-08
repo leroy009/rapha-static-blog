@@ -1,4 +1,5 @@
 ---
+import { getCollection, type CollectionEntry } from "astro:content";
 import Layout from "../layouts/Layout.astro";
 
 import Hero from "../components/Hero.astro";
@@ -8,10 +9,6 @@ import WhyChooseUs from "../components/WhyChooseUs.astro";
 import CTA from "../components/CTA.astro";
 import Blog from "../components/Blog.astro";
 import ContactInfo from "../components/ContactInfo.astro";
-
-import { HOMEPAGE_ARTICLE_LIMIT } from "../data/constants";
-
-import { getCollection, type CollectionEntry } from "astro:content";
 
 const allBlogPosts: CollectionEntry<"blog">[] = (
 	await await getCollection("blog")
@@ -25,7 +22,7 @@ const latestArticle: CollectionEntry<"blog"> = allBlogPosts[0];
 const remainingArticles: CollectionEntry<"blog">[] = allBlogPosts.slice(1);
 ---
 
-<Layout title="Rapha Wellness Clinic">
+<Layout title="Rapha Wellness Centre">
 	<Hero />
 	<Introduction />
 	<ServiceOverview />

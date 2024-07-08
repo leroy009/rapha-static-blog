@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import { Icon } from "astro-icon/components";
 import logo from "../images/logo.png";
+import { SITE_TITLE } from "../data/constants";
 ---
 
 <nav class="bg-green-900 text-white">
@@ -13,12 +14,12 @@ import logo from "../images/logo.png";
 			<Image
 				src={logo}
 				class="h-14"
-				alt="Rapha wellness clinic Logo"
+				alt=`${SITE_TITLE} Logo`
 				width={60}
 				height={55}
 			/>
 			<span class="self-center text-2xl font-semibold whitespace-nowrap"
-				><span class="text-green-400">Rapha </span>wellness clinic</span
+				><span class="text-green-400">Rapha </span>wellness center</span
 			>
 		</a>
 		<button
