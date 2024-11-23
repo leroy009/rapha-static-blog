@@ -1,2 +1,5 @@
 name="rapha-static"
 pages_build_output_dir = "./dist"
+
+[buil]
+node_version = "20.18.0"

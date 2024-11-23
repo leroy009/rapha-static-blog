@@ -7,7 +7,7 @@ import TeamCardWide from "../Cards/TeamCardWide.astro";
 // console.log(team);
 
 const team: CollectionEntry<"team">[] = await getCollection('team', ({ data }) => {
-  return data.name !== "Ms Sibongile Mokoraki";
+  return data.published === true;
 });
 
 // const { teamMembers } = Astro.props;

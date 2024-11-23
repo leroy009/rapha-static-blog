@@ -71,6 +71,7 @@ const teamCollection = defineCollection({
 			organization: z.string(),
 			profile: z.string(),
 			verse: z.string(),
+			published: z.boolean(),
 		}),
 });
 
