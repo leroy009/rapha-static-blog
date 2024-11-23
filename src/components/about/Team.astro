@@ -3,12 +3,12 @@ import { TEAM_TEXT } from "../../data/constants";
 import { getCollection, type CollectionEntry } from "astro:content";
 import TeamCardWide from "../Cards/TeamCardWide.astro";
 
-const team: CollectionEntry<"team">[] = await getCollection("team");
+// const team: CollectionEntry<"team">[] = await getCollection("team");
 // console.log(team);
 
-// const team: CollectionEntry<"team">[] = await getCollection('team', ({ data }) => {
-//   return data.name !== "Ms Sibongile Mokoraki";
-// });
+const team: CollectionEntry<"team">[] = await getCollection('team', ({ data }) => {
+  return data.name !== "Ms Sibongile Mokoraki";
+});
 
 // const { teamMembers } = Astro.props;
 
