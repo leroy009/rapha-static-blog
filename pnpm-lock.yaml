@@ -12,17 +12,17 @@ importers:
         specifier: ^0.9.4
         version: 0.9.4(prettier-plugin-astro@0.13.0)(prettier@3.3.2)(typescript@5.5.3)
       '@astrojs/cloudflare':
-        specifier: ^11.2.0
-        version: 11.2.0(astro@4.16.0(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3))
+        specifier: ^11.1.0
+        version: 11.2.0(astro@4.16.14(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3))
       '@astrojs/tailwind':
         specifier: ^5.1.2
-        version: 5.1.2(astro@4.16.0(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3))(tailwindcss@3.4.4)
+        version: 5.1.2(astro@4.16.14(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3))(tailwindcss@3.4.4)
       '@iconify-json/mdi':
         specifier: ^1.1.67
         version: 1.1.67
       astro:
-        specifier: ^4.16.0
-        version: 4.16.0(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3)
+        specifier: ^4.16.14
+        version: 4.16.14(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3)
       astro-icon:
         specifier: ^1.1.0
         version: 1.1.0
@@ -1117,11 +1117,6 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  acorn@8.12.1:
-    resolution: {integrity: sha512-tcpGyI9zbizT9JbV6oYE477V6mTlXvvi0T0G3SNIYE2apm/G5huBa1+K89VGeovbg+jycCrfhl3ADxErOuO6Jg==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
-
   acorn@8.14.0:
     resolution: {integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==}
     engines: {node: '>=0.4.0'}
@@ -1226,8 +1221,8 @@ packages:
     peerDependencies:
       astro: ^4.12.0
 
-  astro@4.16.0:
-    resolution: {integrity: sha512-R5voBFy0yOg57uFnW24WV+RvqPerp9eOoDQoT0pQYqECuGuyV1PsZaSb9Nm0ec+KMLrfO9jvvESFw9LIN6XiUw==}
+  astro@4.16.14:
+    resolution: {integrity: sha512-2IuLkIp4idyspugq+F52rHZyNqHHi2AdQzuKp3SGytg/YAm50dNeWhP/7l+enjgWZLloLq5xsH5gVQpoDFoyFg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1488,15 +1483,6 @@ packages:
 
   debug@4.3.5:
     resolution: {integrity: sha512-pt0bNEmneDIvdL1Xsd9oDQ/wrQRkXDT4AUWlNZNPKvW5x/jyO9VFXkJUP07vQ2upmw5PlaITaPKc31jK13V+jg==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-
-  debug@4.3.6:
-    resolution: {integrity: sha512-O/09Bd4Z1fBrU4VzkhFqVgpPzaGbw6Sm9FEkBT1A/YBXQFGuuSxa1dN2nxgxS34JmKXqYx8CZAwEVoJFImUXIg==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -3765,13 +3751,13 @@ snapshots:
       - prettier
       - prettier-plugin-astro
 
-  '@astrojs/cloudflare@11.2.0(astro@4.16.0(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3))':
+  '@astrojs/cloudflare@11.2.0(astro@4.16.14(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3))':
     dependencies:
       '@astrojs/internal-helpers': 0.4.1
       '@astrojs/underscore-redirects': 0.3.4
       '@cloudflare/workers-types': 4.20241106.0
-      '@inox-tools/astro-when': 0.2.4(astro@4.16.0(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3))
-      astro: 4.16.0(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3)
+      '@inox-tools/astro-when': 0.2.4(astro@4.16.14(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3))
+      astro: 4.16.14(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3)
       esbuild: 0.21.5
       estree-walker: 3.0.3
       magic-string: 0.30.12
@@ -3844,9 +3830,9 @@ snapshots:
     dependencies:
       prismjs: 1.29.0
 
-  '@astrojs/tailwind@5.1.2(astro@4.16.0(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3))(tailwindcss@3.4.4)':
+  '@astrojs/tailwind@5.1.2(astro@4.16.14(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3))(tailwindcss@3.4.4)':
     dependencies:
-      astro: 4.16.0(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3)
+      astro: 4.16.14(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3)
       autoprefixer: 10.4.20(postcss@8.4.47)
       postcss: 8.4.47
       postcss-load-config: 4.0.2(postcss@8.4.47)
@@ -4340,10 +4326,10 @@ snapshots:
   '@img/sharp-win32-x64@0.33.4':
     optional: true
 
-  '@inox-tools/astro-when@0.2.4(astro@4.16.0(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3))':
+  '@inox-tools/astro-when@0.2.4(astro@4.16.14(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3))':
     dependencies:
-      astro: 4.16.0(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3)
-      astro-integration-kit: 0.16.1(astro@4.16.0(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3))
+      astro: 4.16.14(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3)
+      astro-integration-kit: 0.16.1(astro@4.16.14(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3))
       debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
@@ -4741,8 +4727,6 @@ snapshots:
 
   acorn@8.11.3: {}
 
-  acorn@8.12.1: {}
-
   acorn@8.14.0: {}
 
   ajv@6.12.6:
@@ -4878,13 +4862,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  astro-integration-kit@0.16.1(astro@4.16.0(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3)):
+  astro-integration-kit@0.16.1(astro@4.16.14(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3)):
     dependencies:
-      astro: 4.16.0(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3)
+      astro: 4.16.14(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3)
       pathe: 1.1.2
       recast: 0.23.9
 
-  astro@4.16.0(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3):
+  astro@4.16.14(@types/node@20.11.24)(rollup@4.24.4)(typescript@5.5.3):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -4916,7 +4900,6 @@ snapshots:
       esbuild: 0.21.5
       estree-walker: 3.0.3
       fast-glob: 3.3.2
-      fastq: 1.17.1
       flattie: 1.1.1
       github-slugger: 2.0.0
       gray-matter: 4.0.3
@@ -4937,7 +4920,6 @@ snapshots:
       rehype: 13.0.2
       semver: 7.6.3
       shiki: 1.22.2
-      string-width: 7.2.0
       tinyexec: 0.3.1
       tsconfck: 3.1.4(typescript@5.5.3)
       unist-util-visit: 5.0.0
@@ -5062,7 +5044,7 @@ snapshots:
 
   capnp-ts@0.7.0:
     dependencies:
-      debug: 4.3.6
+      debug: 4.3.7
       tslib: 2.6.2
     transitivePeerDependencies:
       - supports-color
@@ -5218,10 +5200,6 @@ snapshots:
       ms: 2.1.2
 
   debug@4.3.5:
-    dependencies:
-      ms: 2.1.2
-
-  debug@4.3.6:
     dependencies:
       ms: 2.1.2
 
@@ -6603,7 +6581,7 @@ snapshots:
   miniflare@3.20241022.0:
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
-      acorn: 8.12.1
+      acorn: 8.14.0
       acorn-walk: 8.3.2
       capnp-ts: 0.7.0
       exit-hook: 2.2.1

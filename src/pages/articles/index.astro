@@ -10,7 +10,7 @@ import { ARTICLES_PER_PAGE } from "../../data/constants";
 const currentPage: number | null = +Astro.url.searchParams.get("page")! || 1;
 
 const allBlogPosts: CollectionEntry<"blog">[] = (
-	await await getCollection("blog")
+	await getCollection("blog")
 ).sort(
 	(a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) =>
 		b.data.publishedDate.valueOf() - a.data.publishedDate.valueOf(),

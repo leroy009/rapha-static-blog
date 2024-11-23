@@ -1,6 +1,6 @@
 ---
 import { type CollectionEntry, getCollection } from "astro:content";
-import { ADDRESS, SITE_TITLE } from "../data/constants";
+// import { ADDRESS, SITE_TITLE } from "../data/constants";
 import AddressCard from "../components/Cards/AddressCard.astro";
 import IntroServiceCard from "./Cards/IntroServiceCard.astro";
 
@@ -8,7 +8,7 @@ const allIntroService: CollectionEntry<"introservices">[] =
 	await getCollection("introservices");
 
 const allContacts: CollectionEntry<"contact">[] =
-	await await getCollection("contact");
+	await getCollection("contact");
 ---
 
 <section class="bg-white dark:bg-gray-900">
